@@ -1,0 +1,7 @@
+.myFilter {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid teal;
+  border-radius: 3px;
+  padding: 5px 15px;
+}

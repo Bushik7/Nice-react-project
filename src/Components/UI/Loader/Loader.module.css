@@ -1,0 +1,23 @@
+.loader {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border-left: 7px solid rgba(0, 128, 128, 0.4);
+  border-right: 7px solid rgba(0, 128, 128, 1);
+  animation: rotate 1.5s infinite linear;
+}
+
+.loaderWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 25vh;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

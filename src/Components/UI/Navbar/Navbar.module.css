@@ -1,0 +1,24 @@
+.navbar {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: teal;
+}
+
+.navbar__linksBlock {
+  display: flex;
+  justify-content: end;
+  width: 800px;
+}
+
+.navbar__link {
+  padding-right: 15px;
+  text-decoration: none;
+  color: azure;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+}
